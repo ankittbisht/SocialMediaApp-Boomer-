@@ -11,6 +11,7 @@ export const createPost = async(req ,res)=>{
             userId,
             firstName : user.firstName,
             lastName : user.lastName,
+            location: user.location,
             description ,
             userPicturePath: user.picturePath,
             picturePath,
@@ -53,18 +54,18 @@ export const likePost = async(req ,res)=> {
     try {
         const { id } = req.params;
         const { userId } = req.body;
-        const post = await Post.findById({ id});
+        const post = await Post.findById(id);
          
         const isLiked  = post.likes.get(userId);
         if(isLiked){ //if the user already liked the post then remove the like
-            post.likes.delete(userId)
+            post.likes.delete(userId);
         }else{
             post.likes.set(userId , true);
         }
 
         //update the post likes and return it to frontend
 
-        const updatedPost = await Post.findByIdandUpdate(
+        const updatedPost = await Post.findByIdAndUpdate(
             id , 
             {likes : post.likes} ,
             {new : true}
