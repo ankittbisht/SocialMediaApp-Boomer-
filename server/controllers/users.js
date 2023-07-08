@@ -7,7 +7,7 @@ export const getUser = async(req, res) => {
         const user = await User.findById(id);
         res.status(200).json(user);
     } catch (error) {
-         res.status(404).json({message: error.message});
+         res.status(411).json({message: error.message});
     }
 }
 
@@ -26,7 +26,7 @@ export const getUserFriends = async(req, res) => {
         );
         res.status(200).json(formattedFriends);
     } catch (err) {
-         res.status(404).json({message: err.message});
+         res.status(412).json({message: err.message});
     }
 }
 
@@ -58,6 +58,6 @@ export const addRemoveFriend = async(req, res) => {
         );
         res.status(200).json(formattedFriends);
     } catch (error) {
-         res.status(404).json({message: error.message});
+         res.status(413).json({message: error.message});
     }
 };
