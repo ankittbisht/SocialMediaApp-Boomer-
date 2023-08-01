@@ -1,21 +1,26 @@
 
 # Boomer - SocialMedia App
--> This MERN app is a responsive web application with authentication, like functionality, and dark mode
-support. It leverages Material-UI (MUI) for a modern UI design.  
--> Users can register, post, login, and logout securely using JSON Web Tokens (JWT). They can also like and dislike content, with the number of likes displayed.  
--> The app offers a mobile-first design, powered by MongoDB for data storage and Express.js for the backend
-API.
+This MERN app is a responsive web application with authentication and dark mode support, leveraging Material-UI (MUI) for a modern UI design.
+
+Key Features:
+- Users can register, login, and logout securely using JSON Web Tokens (JWT).
+- The app also comes with a login page that ensures authenticated access to protected routes.
+- Users can post content and interact with it by liking and disliking posts, with the number of likes displayed.
+- The mobile-first design ensures a seamless user experience on various devices.
+- The app is powered by MongoDB for data storage and Express.js for the backend API, enabling efficient data management and retrieval.
+
 ## Live Demo
 https://socialmedia-boomer.netlify.app/
 
 
 
 ## Screenshots
-![Screenshot (41)](https://github.com/ankittbisht/SocialMediaApp-Boomer-/assets/110447589/01ae081f-6e96-415f-ab0c-cb66a393041f)  
 
-![Screenshot (43)](https://github.com/ankittbisht/SocialMediaApp-Boomer-/assets/110447589/9f3873bd-852b-460a-9c04-6cb92bc6f03a)
+![Screenshot (41)](https://github.com/ankittbisht/Keeper-Application/assets/110447589/6244d80f-4506-4ca3-9de5-8c7e361acc39)
+![Screenshot (42)](https://github.com/ankittbisht/Keeper-Application/assets/110447589/d6307f25-ad78-4a84-afd1-235a2dd660a5)
+![Screenshot (43)](https://github.com/ankittbisht/Keeper-Application/assets/110447589/a5049444-9efb-43e5-8dab-90edec959e60)
+![Screenshot (47)](https://github.com/ankittbisht/Keeper-Application/assets/110447589/da3730d7-fc07-4367-bfd3-20ef874bd64a)
 
-![Screenshot (42)](https://github.com/ankittbisht/SocialMediaApp-Boomer-/assets/110447589/b0518eac-a4a6-4d88-aa5f-fea992b0882c)
 
 
 ## What you need to run this code
@@ -75,4 +80,16 @@ Start the server
 **Server:** Node, Express
 
 **Database:** MongoDb
+
+## Contact
+
+If you have any questions, suggestions, or just want to say hi, feel free to reach out to me.
+
+- **Email:** [ab67743@gmail.com](mailto:ab67743@gmail.com)
+- **GitHub:** [ankittbisht](https://github.com/ankittbisht)
+- **LinkedIn:** [ankittbisht](https://www.linkedin.com/in/ankittbisht/)
+
+I'm always open to collaborating on exciting projects or discussing new ideas. Don't hesitate to connect!
+
+
 
